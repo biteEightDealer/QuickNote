@@ -1,8 +1,7 @@
-import click as clk
+import clk_functions
 
-@clk.command()
-def quicknote():
-    clk.echo("WELCOME TO QUICKNOTE")
+def run_quicknote():
+    clk_functions.quicknote()
 
 if __name__ == '__main__':
-    quicknote()
+    run_quicknote()
